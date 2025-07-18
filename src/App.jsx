@@ -16,7 +16,6 @@ const App = () => {
       <Hero />
       <ComingSoon />
       <FirstVideo />
-
     </main>
   )
 }
