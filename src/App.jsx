@@ -2,10 +2,11 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 
 
-import NavBar from './section/NavBar';
-import Hero from './section/Hero';
-import ComingSoon from './section/ComingSoon';
-import FirstVideo from './section/FirstVideo';
+import NavBar from './sections/NavBar';
+import Hero from './sections/Hero';
+import ComingSoon from './sections/ComingSoon';
+import FirstVideo from './sections/FirstVideo';
+import Jason from './section/Jason';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -16,6 +17,7 @@ const App = () => {
       <Hero />
       <ComingSoon />
       <FirstVideo />
+      <Jason/>
     </main>
   )
 }
